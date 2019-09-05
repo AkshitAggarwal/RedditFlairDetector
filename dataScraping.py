@@ -1,4 +1,5 @@
 import praw
+import csv
 import pandas as pd
 reddit = praw.Reddit(client_id='WK7Bb4kSnRez8g',
                      client_secret='NYWBOS04ouTSPO0cKhsMLqs-SWQ',
@@ -10,6 +11,6 @@ for post in india_subreddit.hot(limit=None):
                 post.author,
                 post.url,
                 post.num_comments,
-                post.flair])
+                post.link_flair_text])
 posts = pd.DataFrame(posts,columns=['title', 'author', 'url', 'num_comments', 'flair'])    
 posts.to_csv('india.csv')
