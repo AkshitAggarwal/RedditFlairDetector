@@ -48,6 +48,10 @@ Flair
 2. URL
 3. Grouped Features: Title + URL
 
+***Best Model:*** **53.33%** Accuracy using Linear SVM taking Title + URL as feature.
+
+*Observation :* This accuracy can be improved if more data such as Body of post and Top comments are also combined to train for classification. 
+
 # Objective 2 (Pending)
 
 Deploying ML model with maximum accuracy in form a Web-App using Heroku. 
@@ -61,7 +65,6 @@ Data Analysis on collected data.
 
 1. Highest score gathered by each flair. 
 2. Top 10 highest users gathering most score based on their posts. 
-3. 
 
 
 # External resources used. 
@@ -75,5 +78,6 @@ Data Analysis on collected data.
   - http://www.storybench.org/how-to-scrape-reddit-with-python/
   - Official PRAW documentation linked above.
   
-- Guides on using Scikit Learn. 
-  -  
+- Guides on using Scikit Learn for text based classification:
+  - Scikit-learn official documentation
+  - https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568
