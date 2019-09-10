@@ -8,7 +8,7 @@ This project was created in order to complete the coding task provided by Precog
 
 # End Goal
 
-To scrape data from r/india (A subreddit on https://reddit.com/) and classify posts into their respective flairs/ categories by testing it with differnt Machine learning models, and further run data analysis on the scrapped data based on suitable queries.
+To scrape data from r/india (A subreddit on https://reddit.com/) and classify posts into their respective flairs/ categories by testing it with different Machine learning models, and further run data analysis on the scrapped data based on suitable queries.
 
 
 # Objective 0 (Completed)
@@ -30,9 +30,23 @@ Official documentation for PRAW can be found at: https://praw.readthedocs.io/en/
 # Objective 1 (Completed)
 
 Training different models with the help of Scikit-learn python library. https://scikit-learn.org/stable/index.html#
+(12 * 100)Rows of data trained using the following four models from the the Scikit-learn library.
 
-..To be completed.
+**Text based classification models**
+1. Naive Bayse Classifier
+2. Linear Logistic Regression
+3. Linear SVM
+4. Random Forest
 
+**This data was trained using**
+
+***Independent Variable***
+Flair
+
+***Dependent Variables***
+1. Title
+2. URL
+3. Grouped Features: Title + URL
 
 # Objective 2 (Pending)
 
@@ -51,15 +65,15 @@ Data Analysis on collected data.
 
 
 # External resources used. 
-1. Took help from two ***Open-Sourced*** projects with similar objectives.
-    a. https://github.com/chandan21gupta/Reddit-Flair-Detector
-    b. https://github.com/radonys/Reddit-Flair-Detector
+- Took help from two ***Open-Sourced*** projects with similar objectives:
+  - https://github.com/chandan21gupta/Reddit-Flair-Detector
+  - https://github.com/radonys/Reddit-Flair-Detector
   
-2. Articles on how to use PRAW to scrape data. 
-    a. https://towardsdatascience.com/scraping-reddit-data-1c0af3040768
-    b. https://towardsdatascience.com/scraping-reddit-with-praw-76efc1d1e1d9
-    c. http://www.storybench.org/how-to-scrape-reddit-with-python/
-    d. Official PRAW documentation linked above.
+- Articles on how to use PRAW to scrape data:
+  - https://towardsdatascience.com/scraping-reddit-data-1c0af3040768
+  - https://towardsdatascience.com/scraping-reddit-with-praw-76efc1d1e1d9
+  - http://www.storybench.org/how-to-scrape-reddit-with-python/
+  - Official PRAW documentation linked above.
   
-3. Guides on using Scikit Learn. 
-    a. 
+- Guides on using Scikit Learn. 
+  -  
