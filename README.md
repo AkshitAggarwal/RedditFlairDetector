@@ -59,12 +59,13 @@ Deploying ML model with maximum accuracy in form a Web-App using Heroku.
 ..To be completed
 
 
-# Objective 3 (Ongoing)
+# Objective 3 (Completed - Can be improved)
 
 Data Analysis on collected data. 
 
-1. Highest score gathered by each flair. 
-2. Top 10 highest users gathering most score based on their posts. 
+1. Out of all posts, how many were created by unique users. 
+2. Scatter plot to visualize scores gathered by each flair's posts.
+3. Scatter plot to visualize number of comments gathered by each flair's posts.
 
 
 # External resources used. 
@@ -72,7 +73,7 @@ Data Analysis on collected data.
   - https://github.com/chandan21gupta/Reddit-Flair-Detector
   - https://github.com/radonys/Reddit-Flair-Detector
   
-- Articles on how to use PRAW to scrape data:
+- [1]Articles on how to use PRAW to scrape data:
   - https://towardsdatascience.com/scraping-reddit-data-1c0af3040768
   - https://towardsdatascience.com/scraping-reddit-with-praw-76efc1d1e1d9
   - http://www.storybench.org/how-to-scrape-reddit-with-python/
@@ -81,3 +82,7 @@ Data Analysis on collected data.
 - Guides on using Scikit Learn for text based classification:
   - Scikit-learn official documentation
   - https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568
+  
+- Data Analysis:
+  - https://seaborn.pydata.org/tutorial/categorical.html#categorical-tutorial
+  - https://towardsdatascience.com/a-guide-to-pandas-and-matplotlib-for-data-exploration-56fad95f951c
