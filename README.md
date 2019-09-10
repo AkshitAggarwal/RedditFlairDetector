@@ -51,7 +51,7 @@ Data Analysis on collected data.
 
 
 # External resources used. 
-1. Took help from two *Open-Sourced* projects with similar objectives.
+1. Took help from two ***Open-Sourced*** projects with similar objectives.
     a. https://github.com/chandan21gupta/Reddit-Flair-Detector
     b. https://github.com/radonys/Reddit-Flair-Detector
   
@@ -61,4 +61,5 @@ Data Analysis on collected data.
     c. http://www.storybench.org/how-to-scrape-reddit-with-python/
     d. Official PRAW documentation linked above.
   
-3. 
+3. Guides on using Scikit Learn. 
+    a. 
