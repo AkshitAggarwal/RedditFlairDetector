@@ -69,10 +69,7 @@ Data Analysis on collected data.
 
 
 # External resources used. 
-- Took help from two ***Open-Sourced*** projects with similar objectives:
-  - https://github.com/chandan21gupta/Reddit-Flair-Detector
-  - https://github.com/radonys/Reddit-Flair-Detector
-  
+
 - [1]Articles on how to use PRAW to scrape data:
   - https://towardsdatascience.com/scraping-reddit-data-1c0af3040768
   - https://towardsdatascience.com/scraping-reddit-with-praw-76efc1d1e1d9
