@@ -1,12 +1,7 @@
 # PrecogRITask
 
 
-# Reddit-Flair-Detector
-
-This project was created in order to complete the coding task provided by Precog, a research group from IIIT Delhi which focuses on studying and analyzing different social groups or networks, be it online or offline. Their work can be found on http://precog.iiitd.edu.in/
-
-
-# End Goal
+# Reddit-Flair-Detector: End Goal
 
 To scrape data from r/india (A subreddit on https://reddit.com/) and classify posts into their respective flairs/ categories by testing it with different Machine learning models, and further run data analysis on the scrapped data based on suitable queries.
 
